@@ -1,0 +1,34 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+.map{
+    position: relative;
+}
+.map svg{
+    max-width: 100%;
+    height: auto;
+}
+.map-country{
+    cursor: pointer;
+}
+.map-popup{
+    position: absolute;
+    transform: translate(-64%, -110%);
+    z-index: 5;
+    display: none;
+    width: 100%;
+    max-width: 60px;
+    background-color: rgba(116, 116, 116, 0.4);
+}
+.map-popup__title{
+    font-size: 60%;
+    line-height: 1.1;
+}
+.map-popup__text{
+    padding-top: 2%;
+    font-size: 50%;
+    line-height: 1.1;
+}
+.map-country--active{
+}
